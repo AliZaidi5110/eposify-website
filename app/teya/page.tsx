@@ -9,18 +9,18 @@ export default function Teya() {
       <main>
         <section className="px-5 py-16 md:py-24">
           <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2">
-            <div>
+            <div className="relative mx-auto max-w-md order-2 lg:order-1">
+              <Image src="/teya1-section.png" alt="Teya card payment solution" width={400} height={350} className="rounded-3xl object-cover" />
+            </div>
+            <div className="order-1 lg:order-2">
               <h1 className="text-5xl font-black tracking-tight text-navy md:text-6xl">Enjoy simple, easy and fast card payments with Teya</h1>
               <ul className="mt-8 space-y-4">
-                <li className="flex items-start gap-3"><Check className="mt-1 h-6 w-6 flex-none text-emerald" /><span className="text-lg text-slate-700">Simple Flat Rate Pricing</span></li>
-                <li className="flex items-start gap-3"><Check className="mt-1 h-6 w-6 flex-none text-emerald" /><span className="text-lg text-slate-700">Money in your account next business day</span></li>
-                <li className="flex items-start gap-3"><Check className="mt-1 h-6 w-6 flex-none text-emerald" /><span className="text-lg text-slate-700">No Contracts, No Hidden Fees, No PCI Charges</span></li>
-                <li className="flex items-start gap-3"><Check className="mt-1 h-6 w-6 flex-none text-emerald" /><span className="text-lg text-slate-700">Pay-By-Link, for Secure Remote Payments</span></li>
-                <li className="flex items-start gap-3"><Check className="mt-1 h-6 w-6 flex-none text-emerald" /><span className="text-lg text-slate-700">Live Transaction Data via the Teya App & Portal</span></li>
+                <li className="flex items-start gap-3"><Check className="mt-1 h-6 w-6 flex-none" style={{ color: '#e8e23c' }} /><span className="text-lg text-slate-700">Simple Flat Rate Pricing</span></li>
+                <li className="flex items-start gap-3"><Check className="mt-1 h-6 w-6 flex-none" style={{ color: '#e8e23c' }} /><span className="text-lg text-slate-700">Money in your account next business day</span></li>
+                <li className="flex items-start gap-3"><Check className="mt-1 h-6 w-6 flex-none" style={{ color: '#e8e23c' }} /><span className="text-lg text-slate-700">No Contracts, No Hidden Fees, No PCI Charges</span></li>
+                <li className="flex items-start gap-3"><Check className="mt-1 h-6 w-6 flex-none" style={{ color: '#e8e23c' }} /><span className="text-lg text-slate-700">Pay-By-Link, for Secure Remote Payments</span></li>
+                <li className="flex items-start gap-3"><Check className="mt-1 h-6 w-6 flex-none" style={{ color: '#e8e23c' }} /><span className="text-lg text-slate-700">Live Transaction Data via the Teya App & Portal</span></li>
               </ul>
-            </div>
-            <div className="relative">
-              <Image src="/teya1-section.png" alt="Teya card payment solution" width={600} height={500} className="rounded-3xl object-cover" />
             </div>
           </div>
         </section>
