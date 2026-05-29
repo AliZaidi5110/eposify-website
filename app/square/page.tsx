@@ -64,10 +64,10 @@ export default function Square() {
           </div>
         </section>
 
-        <section className="px-5 py-12 bg-navy text-center">
+        <section className="px-5 py-12 bg-slate-100 text-center">
           <div className="flex flex-col items-center gap-3">
             <Image src="/square_Logo.jpeg" alt="Square" width={80} height={30} className="h-8 w-auto object-contain" />
-            <p className="text-lg font-bold text-white">OFFICIAL PARTNER</p>
+            <p className="text-xl font-bold text-slate-800">OFFICIAL PARTNER</p>
           </div>
         </section>
       </main>
