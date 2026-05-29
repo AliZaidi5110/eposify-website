@@ -13,7 +13,7 @@ export default function Square() {
             </div>
             <div>
               <div className="mb-4">
-                <Image src="/sqaure_logo.jpg" alt="Square" width={120} height={45} className="h-12 w-auto object-contain" />
+                <Image src="/square_Logo.jpeg" alt="Square" width={120} height={45} className="h-12 w-auto object-contain" />
               </div>
               <h1 className="text-5xl font-black tracking-tight text-navy md:text-6xl">Square Terminal</h1>
               <p className="mt-6 text-xl text-slate-600">The compact card machine that flexes with your business</p>
@@ -66,7 +66,7 @@ export default function Square() {
 
         <section className="px-5 py-12 bg-navy text-center">
           <div className="flex flex-col items-center gap-3">
-            <Image src="/sqaure_logo.jpg" alt="Square" width={80} height={30} className="h-8 w-auto object-contain" />
+            <Image src="/square_Logo.jpeg" alt="Square" width={80} height={30} className="h-8 w-auto object-contain" />
             <p className="text-lg font-bold text-white">Square Official Provider</p>
           </div>
         </section>
