@@ -8,9 +8,10 @@ const services = [
   { icon: Laptop, title: 'EPOS Systems', items: ['Restaurant POS', 'Retail POS', 'Salon POS', 'Inventory management'] },
   { icon: Globe2, title: 'Online Payments', items: ['Payment links', 'Online checkout', 'QR code payments', 'Invoice payments'] },
   { icon: HandCoins, title: 'Business Funding', items: ['Funding based on card sales performance', 'Growth capital', 'Stock purchasing', 'Cash flow support'] },
+  { icon: Zap, title: 'Gas & Electric', items: ['Cut costs on commercial energy', 'Compare suppliers', 'Best deals for your business', 'Energy bill management'] },
 ];
 
-const industries = ['Restaurants', 'Takeaways', 'Cafés', 'Salons', 'Retail Shops', 'Grocery Stores', 'Gyms'];
+const industries = ['Restaurants', 'Takeaways', 'Cafés', 'Salons', 'Retail Shops', 'Grocery Stores', 'Pubs'];
 const businessFlavors = [
   { label: 'Restaurants', icon: Utensils, className: 'left-[3%] top-[33%] bg-emerald/10 text-emerald' },
   { label: 'Barbers & salons', icon: Scissors, className: 'left-[20%] top-[56%] bg-aqua/10 text-aqua' },
@@ -18,7 +19,7 @@ const businessFlavors = [
   { label: 'Takeaways', icon: Store, className: 'left-[44%] top-[38%] bg-navy text-white' },
   { label: 'Cafés', icon: Coffee, className: 'right-[28%] top-[18%] bg-emerald/10 text-emerald' },
   { label: 'Grocery shops', icon: Store, className: 'right-[15%] top-[57%] bg-electric/10 text-electric' },
-  { label: 'Gyms', icon: Dumbbell, className: 'right-[4%] top-[30%] bg-aqua/10 text-aqua' },
+  { label: 'Pubs', icon: Dumbbell, className: 'right-[4%] top-[30%] bg-aqua/10 text-aqua' },
 ];
 const heroBusinessImages = [
   { src: '/PD07203_-_USEN_-_hero_img_a.avif', alt: 'Business owner using a modern checkout system' },
@@ -31,7 +32,7 @@ const businessCategoryCards = [
   { name: 'SALONS', image: '/saloon.jpg', alt: 'Hair salon interior', slogan: 'Style your payments with ease' },
   { name: 'RETAIL SHOPS', image: '/retail shop.jpg', alt: 'Boutique store', slogan: 'Checkout made simple' },
   { name: 'GROCERY STORES', image: '/ym.jpg', alt: 'Supermarket checkout', slogan: 'Fresh payment solutions' },
-  { name: 'GYMS', image: '/gym.jpg', alt: 'Fitness center', slogan: 'Power up your payments' },
+  { name: 'PUBS', image: '/gym.jpg', alt: 'Pub bar scene', slogan: 'Pouring smooth payments' },
 ];
 export default function Home() {
   return (
@@ -74,12 +75,12 @@ export default function Home() {
         </section>
 
         <section id="services" className="px-5 py-16">
-          <SectionHeader eyebrow="Services" title="Complete merchant services for ambitious UK businesses" text="From restaurant card machine packages to salon payment systems and small business funding, every solution is built around your workflow." />
+          <SectionHeader eyebrow="Services" title="Complete merchant services for ambitious UK businesses" text="From restaurant card machine packages to salon payment systems, small business funding, and gas & electric cost savings, every solution is built around your workflow." />
           <div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-2 lg:grid-cols-3">{services.map((service) => <AnimatedCard key={service.title} className="glass rounded-4xl p-7"><service.icon className="mb-6 h-10 w-10 text-electric" /><h3 className="text-2xl font-black text-navy">{service.title}</h3><ul className="mt-5 space-y-3 text-slate-600">{service.items.map((item) => <li key={item} className="flex gap-3"><Check className="mt-0.5 h-5 w-5 flex-none text-emerald" />{item}</li>)}</ul></AnimatedCard>)}</div>
         </section>
 
         <section id="industries" className="px-5 py-16">
-          <SectionHeader eyebrow="Industries" title="Built for everyday British businesses" text="We support restaurants, salons, barbershops, takeaways, retail stores, cafés, grocery stores and gyms." />
+          <SectionHeader eyebrow="Industries" title="Built for everyday British businesses" text="We support restaurants, salons, barbershops, takeaways, retail stores, cafés, grocery stores and pubs." />
           <div className="mx-auto grid max-w-7xl gap-5 md:grid-cols-2 lg:grid-cols-3">
             {businessCategoryCards.map((card) => (
               <div key={card.name} className="group relative aspect-[4/3] overflow-hidden rounded-lg shadow-[0px_4px_12px_rgba(0,0,0,0.15)] transition duration-500 hover:scale-[1.02] hover:brightness-110">
