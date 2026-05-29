@@ -71,7 +71,10 @@ export default function Teya() {
         </section>
 
         <section className="px-5 py-12 bg-navy text-center">
-          <p className="text-lg font-bold text-white">Teya Official Provider</p>
+          <div className="flex flex-col items-center gap-3">
+            <Image src="/teya_logo.png" alt="Teya" width={80} height={30} className="h-8 w-auto object-contain" />
+            <p className="text-lg font-bold text-white">Teya Official Provider</p>
+          </div>
         </section>
       </main>
     </PageShell>

@@ -65,7 +65,10 @@ export default function Square() {
         </section>
 
         <section className="px-5 py-12 bg-navy text-center">
-          <p className="text-lg font-bold text-white">Square Official Provider</p>
+          <div className="flex flex-col items-center gap-3">
+            <Image src="/sqaure_logo.jpg" alt="Square" width={80} height={30} className="h-8 w-auto object-contain" />
+            <p className="text-lg font-bold text-white">Square Official Provider</p>
+          </div>
         </section>
       </main>
     </PageShell>
