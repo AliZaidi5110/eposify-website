@@ -23,7 +23,7 @@ const businessFlavors = [
 ];
 const heroBusinessImages = [
   { src: '/PD07203_-_USEN_-_hero_img_a.avif', alt: 'Business owner using a modern checkout system' },
-  { src: '/PD07203_-_hero_img_b.avif', alt: 'Retail order being packed for a customer' },
+  { src: '/image1.avif', alt: 'Retail order being packed for a customer' },
   { src: '/PD07203_-_hero_img_c.avif', alt: 'Shop owner stocking grocery shelves' },
 ];
 const businessCategoryCards = [
@@ -49,8 +49,7 @@ export default function Home() {
               <div className="mt-8"><SecurityStrip /></div>
             </div>
             <div className="relative">
-              <div className="glass rounded-4xl p-4"><Image src="/ab front.jpg.jpeg" alt="Eposify brochure with Teya Shift4 Square partners" width={900} height={550} className="rounded-3xl object-cover" priority /></div>
-              <div className="absolute -bottom-7 -left-3 rounded-3xl bg-navy p-5 text-white shadow-premium"><p className="text-sm text-slate-300">Funding available</p><p className="text-2xl font-black">£5K–£500K</p><p className="text-sm text-emerald">within 24 hours</p></div>
+              <div className="glass rounded-4xl p-4"><Image src="/teya-balance-1.jpg" alt="Eposify business card" width={900} height={550} className="rounded-3xl object-cover" priority /></div>
             </div>
           </div>
         </section>
