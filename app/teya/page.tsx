@@ -14,7 +14,7 @@ export default function Teya() {
             </div>
             <div className="order-1 lg:order-2">
               <div className="mb-4">
-                <Image src="/teya_logo.png" alt="Teya" width={120} height={45} className="h-12 w-auto object-contain" />
+                <Image src="/teya_logo.png" alt="Teya" width={160} height={60} className="h-16 w-auto object-contain" />
               </div>
               <h1 className="text-5xl font-black tracking-tight text-navy md:text-6xl">Enjoy simple, easy and fast card payments with Teya</h1>
               <ul className="mt-8 space-y-4">
@@ -72,7 +72,7 @@ export default function Teya() {
 
         <section className="px-5 py-12 bg-white text-center">
           <div className="flex flex-col items-center gap-3">
-            <Image src="/teya_logo.png" alt="Teya" width={80} height={30} className="h-8 w-auto object-contain" />
+            <Image src="/teya_logo.png" alt="Teya" width={120} height={45} className="h-12 w-auto object-contain" />
             <p className="text-xl font-bold text-slate-800">OFFICIAL PARTNER</p>
           </div>
         </section>
