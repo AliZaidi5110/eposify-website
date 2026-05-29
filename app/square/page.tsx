@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { PageShell } from '@/components/SiteShell';
 
 export default function Square() {
@@ -13,6 +14,7 @@ export default function Square() {
             <div>
               <h1 className="text-5xl font-black tracking-tight text-navy md:text-6xl">Square Terminal</h1>
               <p className="mt-6 text-xl text-slate-600">The compact card machine that flexes with your business</p>
+              <Link href="/contact" className="mt-8 inline-flex items-center gap-2 rounded-full bg-navy px-8 py-4 font-black text-white transition hover:-translate-y-1">Get Square</Link>
             </div>
           </div>
         </section>

@@ -1,4 +1,5 @@
 import Image from 'next/image';
+import Link from 'next/link';
 import { Check } from 'lucide-react';
 import { PageShell } from '@/components/SiteShell';
 
@@ -23,6 +24,9 @@ export default function Shift4() {
                 <li className="flex items-start gap-3"><Check className="mt-1 h-6 w-6 flex-none text-emerald" /><span className="text-xl font-bold text-slate-700">POS Includes Card Machine, Cash Drawer & Receipt Printer – No Upfront Costs</span></li>
                 <li className="flex items-start gap-3"><Check className="mt-1 h-6 w-6 flex-none text-emerald" /><span className="text-xl font-bold text-slate-700">Next Working Day Payments (Monday–Friday)</span></li>
               </ul>
+              <div className="mt-8 text-center">
+                <Link href="/contact" className="inline-flex items-center gap-2 rounded-full bg-navy px-8 py-4 font-black text-white transition hover:-translate-y-1">Get Shift4</Link>
+              </div>
             </div>
           </div>
         </section>
