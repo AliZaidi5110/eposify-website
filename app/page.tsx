@@ -50,11 +50,11 @@ export default function Home() {
               </div>
               <h1 className="text-5xl font-black tracking-tight text-navy md:text-7xl">Smart Payment Solutions for <span className="gradient-text">Modern Businesses</span></h1>
               <p className="mt-6 max-w-2xl text-xl leading-8 text-slate-600">Card Machines, POS Systems, Business Funding & Payment Processing Solutions for UK Businesses.</p>
-              <div className="mt-8 flex flex-col gap-3 sm:flex-row"><Link href="/contact" className="rounded-full bg-navy px-7 py-4 text-center font-black text-white shadow-premium transition hover:-translate-y-1">Get Started</Link><Link href="/contact#callback" className="rounded-full border border-slate-200 bg-white px-7 py-4 text-center font-black text-navy transition hover:border-electric">Request Callback</Link><Link href="/careers" className="rounded-full bg-gradient-to-r from-electric to-emerald px-7 py-4 text-center font-black text-white shadow-glow">Become a Sales Partner</Link></div>
+              <div className="mt-8 flex flex-col gap-3 sm:flex-row"><Link href="/contact" className="rounded-full bg-navy px-7 py-4 text-center font-black text-white shadow-premium transition hover:-translate-y-1">Get Started</Link><Link href="/careers" className="rounded-full bg-gradient-to-r from-electric to-emerald px-7 py-4 text-center font-black text-white shadow-glow">Become a Sales Partner</Link></div>
               <div className="mt-8"><SecurityStrip /></div>
             </div>
             <div className="relative">
-              <div className="glass rounded-4xl p-4"><Image src="/IMG_9925.JPG.jpeg" alt="Eposify business card" width={900} height={550} className="rounded-3xl object-cover" priority /></div>
+              <div className="glass rounded-4xl p-4"><Image src="/image3.jpeg" alt="Eposify business card" width={900} height={550} className="rounded-3xl object-cover" priority /></div>
             </div>
           </div>
         </section>

@@ -67,7 +67,7 @@ export default function Square() {
         <section className="px-5 py-12 bg-navy text-center">
           <div className="flex flex-col items-center gap-3">
             <Image src="/square_Logo.jpeg" alt="Square" width={80} height={30} className="h-8 w-auto object-contain" />
-            <p className="text-lg font-bold text-white">Square Official Provider</p>
+            <p className="text-lg font-bold text-white">OFFICIAL PARTNER</p>
           </div>
         </section>
       </main>
