@@ -45,7 +45,7 @@ export default function Home() {
               <div className="mb-6 inline-flex items-center gap-4 rounded-full border border-electric/30 bg-navy px-6 py-3 shadow-sm">
                 <span className="text-sm font-bold text-white">Partnered with</span>
                 <Image src="/teya_Logo.png" alt="Teya" width={100} height={40} className="h-10 w-auto object-contain" />
-                <Image src="/Shift4-Partner-Logo.svg" alt="Shift4" width={100} height={40} className="h-10 w-auto object-contain" />
+                <Image src="/shift42-logo.jpeg" alt="Shift4" width={100} height={40} className="h-10 w-auto object-contain" />
                 <Image src="/square_Logo.jpeg" alt="Square" width={100} height={40} className="h-10 w-auto object-contain" />
               </div>
               <h1 className="text-5xl font-black tracking-tight text-navy md:text-7xl">Smart Payment Solutions for <span className="gradient-text">Modern Businesses</span></h1>
