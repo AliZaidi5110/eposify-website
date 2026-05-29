@@ -42,7 +42,7 @@ export default function Home() {
           <div className="absolute left-1/2 top-16 -z-10 h-80 w-80 rounded-full bg-electric/20 blur-3xl" />
           <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-[1.05fr_0.95fr]">
             <div>
-              <div className="mb-6 inline-flex items-center gap-4 rounded-full border border-slate-200 bg-white px-4 py-2 shadow-sm">
+              <div className="mb-6 inline-flex items-center gap-4 rounded-full border border-electric/30 bg-navy px-4 py-2 shadow-sm">
                 <Image src="/teya_logo.png" alt="Teya" width={80} height={30} className="h-8 w-auto object-contain" />
                 <Image src="/Shift4-Partner-Logo.svg" alt="Shift4" width={80} height={30} className="h-8 w-auto object-contain" />
                 <Image src="/sqaure_logo.jpg" alt="Square" width={80} height={30} className="h-8 w-auto object-contain" />
