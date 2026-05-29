@@ -24,7 +24,7 @@ const businessFlavors = [
 const heroBusinessImages = [
   { src: '/PD07203_-_USEN_-_hero_img_a.avif', alt: 'Business owner using a modern checkout system' },
   { src: '/image1.avif', alt: 'Retail order being packed for a customer' },
-  { src: '/PD07203_-_hero_img_c.avif', alt: 'Shop owner stocking grocery shelves' },
+  { src: '/image2.avif', alt: 'Shop owner stocking grocery shelves' },
 ];
 const businessCategoryCards = [
   { name: 'TAKEAWAYS', image: '/takeaway.jpg', alt: 'Fast food counter', slogan: 'Fast payments for quick service' },
