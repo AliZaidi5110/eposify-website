@@ -26,6 +26,9 @@ export function Navbar() {
     ['Services', '/#services'],
     ['Industries', '/#industries'],
     ['Funding', '/#funding'],
+    ['Teya', '/teya'],
+    ['Square', '/square'],
+    ['Shift4', '/shift4'],
     ['Careers', '/careers'],
     ['Contact', '/contact'],
   ];
