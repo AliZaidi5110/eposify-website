@@ -54,15 +54,15 @@ export default function Teya() {
           </div>
         </section>
 
-        <section className="px-5 py-16">
+        <section className="px-5 py-16 bg-yellow-50">
           <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2">
             <div>
               <h2 className="text-4xl font-black tracking-tight text-navy md:text-5xl">Take contactless payments on your phone with Teya Tap</h2>
               <p className="mt-6 text-xl text-slate-600">Accept contactless payments anytime, anywhere – all you need is your phone. Need an extra card reader for busy periods? Looking for a simple way to process payments on the go? Available on Android when you join.</p>
               <Link href="/contact" className="mt-8 inline-flex items-center gap-2 rounded-full bg-navy px-8 py-4 font-black text-white transition hover:-translate-y-1">Get Teya</Link>
             </div>
-            <div className="relative">
-              <Image src="/teya3-section.png" alt="Teya Tap mobile payments" width={600} height={500} className="rounded-3xl object-cover" />
+            <div className="relative mx-auto max-w-md">
+              <Image src="/teya3-section.png" alt="Teya Tap mobile payments" width={400} height={350} className="rounded-3xl object-cover" />
             </div>
           </div>
         </section>
