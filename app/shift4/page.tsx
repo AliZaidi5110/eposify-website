@@ -35,9 +35,8 @@ export default function Shift4() {
         </section>
 
         <section className="px-5 py-12 bg-navy text-center">
-          <div className="flex flex-col items-center gap-3">
+          <div className="flex justify-center">
             <Image src="/Shift4-Partner-Logo.svg" alt="Shift4" width={80} height={30} className="h-8 w-auto object-contain" />
-            <p className="text-lg font-bold text-white">Shift4 Official Provider</p>
           </div>
         </section>
       </main>
