@@ -27,7 +27,7 @@ const heroBusinessImages = [
   { src: '/image4.jpeg', alt: 'Shop owner stocking grocery shelves' },
 ];
 const businessCategoryCards = [
-  { name: 'TAKEAWAYS', image: '/takeaway.jpg', alt: 'Fast food counter', slogan: 'Fast payments for quick service' },
+  { name: 'TAKEAWAYS', image: '/era.jpg', alt: 'Fast food counter', slogan: 'Fast payments for quick service' },
   { name: 'CAFÉS', image: '/cafe.jpg', alt: 'Coffee shop scene', slogan: 'Brewing smooth transactions' },
   { name: 'SALONS', image: '/saloon.jpg', alt: 'Hair salon interior', slogan: 'Style your payments with ease' },
   { name: 'RETAIL SHOPS', image: '/retail shop.jpg', alt: 'Boutique store', slogan: 'Checkout made simple' },
