@@ -9,6 +9,9 @@ export default function Shift4() {
       <main>
         <section className="px-5 py-16 md:py-24">
           <div className="mx-auto max-w-7xl">
+            <div className="mb-8 flex justify-center">
+              <Image src="/Shift4-Partner-Logo.svg" alt="Shift4" width={120} height={45} className="h-12 w-auto object-contain" />
+            </div>
             <h1 className="text-5xl font-black tracking-tight text-navy md:text-6xl text-center mb-12">Shift4 Payment Solutions</h1>
             <div className="grid gap-12 md:grid-cols-2">
               <div className="relative">

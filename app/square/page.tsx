@@ -12,6 +12,9 @@ export default function Square() {
               <Image src="/sqaure1.avif" alt="Square Terminal" width={600} height={500} className="rounded-3xl object-cover" />
             </div>
             <div>
+              <div className="mb-4">
+                <Image src="/sqaure_logo.jpg" alt="Square" width={120} height={45} className="h-12 w-auto object-contain" />
+              </div>
               <h1 className="text-5xl font-black tracking-tight text-navy md:text-6xl">Square Terminal</h1>
               <p className="mt-6 text-xl text-slate-600">The compact card machine that flexes with your business</p>
               <Link href="/contact" className="mt-8 inline-flex items-center gap-2 rounded-full bg-navy px-8 py-4 font-black text-white transition hover:-translate-y-1">Get Square</Link>

@@ -13,6 +13,9 @@ export default function Teya() {
               <Image src="/teya1-section.png" alt="Teya card payment solution" width={400} height={350} className="rounded-3xl object-cover" />
             </div>
             <div className="order-1 lg:order-2">
+              <div className="mb-4">
+                <Image src="/teya_logo.png" alt="Teya" width={120} height={45} className="h-12 w-auto object-contain" />
+              </div>
               <h1 className="text-5xl font-black tracking-tight text-navy md:text-6xl">Enjoy simple, easy and fast card payments with Teya</h1>
               <ul className="mt-8 space-y-4">
                 <li className="flex items-start gap-3"><Check className="mt-1 h-6 w-6 flex-none" style={{ color: '#e8e23c' }} /><span className="text-lg text-slate-700">Simple Flat Rate Pricing</span></li>
