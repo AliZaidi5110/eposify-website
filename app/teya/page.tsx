@@ -54,7 +54,7 @@ export default function Teya() {
           </div>
         </section>
 
-        <section className="px-5 py-16 bg-yellow-50">
+        <section className="px-5 py-16" style={{ backgroundColor: '#e8e23c' }}>
           <div className="mx-auto grid max-w-7xl items-center gap-12 lg:grid-cols-2">
             <div>
               <h2 className="text-4xl font-black tracking-tight text-navy md:text-5xl">Take contactless payments on your phone with Teya Tap</h2>
