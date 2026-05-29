@@ -32,7 +32,7 @@ const businessCategoryCards = [
   { name: 'SALONS', image: '/saloon.jpg', alt: 'Hair salon interior', slogan: 'Style your payments with ease' },
   { name: 'RETAIL SHOPS', image: '/retail shop.jpg', alt: 'Boutique store', slogan: 'Checkout made simple' },
   { name: 'GROCERY STORES', image: '/ym.jpg', alt: 'Supermarket checkout', slogan: 'Fresh payment solutions' },
-  { name: 'PUBS', image: '/gym.jpg', alt: 'Pub bar scene', slogan: 'Pouring smooth payments' },
+  { name: 'PUBS', image: '/pub.avif', alt: 'Pub bar scene', slogan: 'Pouring smooth payments' },
 ];
 export default function Home() {
   return (
