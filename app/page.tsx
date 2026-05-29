@@ -49,7 +49,7 @@ export default function Home() {
               <div className="mt-8"><SecurityStrip /></div>
             </div>
             <div className="relative">
-              <div className="glass rounded-4xl p-4"><Image src="/teya-balance-1.jpg" alt="Eposify business card" width={900} height={550} className="rounded-3xl object-cover" priority /></div>
+              <div className="glass rounded-4xl p-4"><Image src="/image3.jpeg" alt="Eposify business card" width={900} height={550} className="rounded-3xl object-cover" priority /></div>
             </div>
           </div>
         </section>

@@ -1,6 +1,7 @@
 'use client';
 
 import Link from 'next/link';
+import { usePathname } from 'next/navigation';
 import { motion } from 'framer-motion';
 import { Calculator, CheckCircle2, Cookie, Menu, MessageCircle, Phone, ShieldCheck, X } from 'lucide-react';
 import { useEffect, useState } from 'react';
@@ -21,6 +22,7 @@ export function Logo({ light = false }: { light?: boolean }) {
 export function Navbar() {
   const [open, setOpen] = useState(false);
   const [active, setActive] = useState('');
+  const pathname = usePathname();
   const links = [
     ['About', '/#about'],
     ['Services', '/#services'],
@@ -54,8 +56,10 @@ export function Navbar() {
         <nav className="hidden items-center gap-7 lg:flex">
           {links.map(([label, href]) => {
             const id = href.startsWith('/#') ? href.slice(2) : '';
-            const isActive = id && active === id;
-            return <Link key={label} href={href} className={`relative rounded-full px-3 py-2 text-sm font-semibold transition ${isActive ? 'bg-electric/10 text-electric' : 'text-slate-700 hover:text-electric'}`}>{label}</Link>;
+            const isSectionActive = id && active === id;
+            const isPageActive = !href.startsWith('/#') && pathname === href;
+            const isActive = isSectionActive || isPageActive;
+            return <Link key={label} href={href} className={`relative rounded-full px-3 py-2 text-sm font-semibold transition ${isActive ? 'bg-electric/20 text-electric border-b-2 border-electric' : 'text-slate-700 hover:text-electric'}`}>{label}</Link>;
           })}
         </nav>
         <div className="hidden items-center gap-3 lg:flex">
@@ -67,7 +71,10 @@ export function Navbar() {
       {open && (
         <div className="border-t border-slate-100 bg-white px-5 py-4 lg:hidden">
           <div className="flex flex-col gap-3">
-            {links.map(([label, href]) => <Link key={label} href={href} onClick={() => setOpen(false)} className="rounded-xl px-3 py-2 font-semibold text-slate-700 hover:bg-slate-50">{label}</Link>)}
+            {links.map(([label, href]) => {
+              const isPageActive = !href.startsWith('/#') && pathname === href;
+              return <Link key={label} href={href} onClick={() => setOpen(false)} className={`rounded-xl px-3 py-2 font-semibold transition ${isPageActive ? 'bg-electric/20 text-electric' : 'text-slate-700 hover:bg-slate-50'}`}>{label}</Link>;
+            })}
           </div>
         </div>
       )}
