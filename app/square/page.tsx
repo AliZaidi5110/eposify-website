@@ -19,24 +19,27 @@ export default function Square() {
 
         <section className="px-5 py-16 bg-slate-50">
           <div className="mx-auto max-w-7xl">
-            <div className="grid gap-12 md:grid-cols-2 lg:grid-cols-4">
+            <h2 className="text-4xl font-black tracking-tight text-navy md:text-5xl text-center mb-12">Accept every way your customers want to pay</h2>
+            <div className="grid gap-8 md:grid-cols-3">
               <div className="text-center">
-                <div className="relative mx-auto aspect-square max-w-[300px] overflow-hidden rounded-3xl">
+                <div className="relative mx-auto aspect-square max-w-[400px] overflow-hidden rounded-3xl">
                   <Image src="/square2.avif" alt="Square Insert chip and PIN" fill className="object-cover" />
                 </div>
-                <p className="mt-4 text-lg font-bold text-navy">Insert a chip and PIN card</p>
+                <p className="mt-6 text-xl font-bold text-navy">Insert a chip and PIN card</p>
               </div>
               <div className="text-center">
-                <div className="relative mx-auto aspect-square max-w-[300px] overflow-hidden rounded-3xl">
+                <div className="relative mx-auto aspect-square max-w-[400px] overflow-hidden rounded-3xl">
                   <Image src="/square3.avif" alt="Square Tap contactless" fill className="object-cover" />
                 </div>
-                <p className="mt-4 text-lg font-bold text-navy">Tap a contactless card</p>
+                <p className="mt-4 text-lg font-bold text-electric">Square Tap contactless</p>
+                <p className="mt-2 text-xl font-bold text-navy">Tap a contactless card</p>
               </div>
               <div className="text-center">
-                <div className="relative mx-auto aspect-square max-w-[300px] overflow-hidden rounded-3xl">
+                <div className="relative mx-auto aspect-square max-w-[400px] overflow-hidden rounded-3xl">
                   <Image src="/square4.avif" alt="Square mobile payment" fill className="object-cover" />
                 </div>
-                <p className="mt-4 text-lg font-bold text-navy">Pay with a mobile device</p>
+                <p className="mt-4 text-lg font-bold text-electric">Square mobile payment</p>
+                <p className="mt-2 text-xl font-bold text-navy">Pay with a mobile device</p>
               </div>
             </div>
           </div>
