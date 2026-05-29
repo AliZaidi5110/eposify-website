@@ -12,7 +12,7 @@ export default function Shift4() {
             <h1 className="text-5xl font-black tracking-tight text-navy md:text-6xl text-center mb-12">Shift4 Payment Solutions</h1>
             <div className="grid gap-12 md:grid-cols-2">
               <div className="relative">
-                <Image src="/shift4.1.jpeg" alt="Shift4 card terminal" width={600} height={500} className="rounded-3xl object-cover w-full" />
+                <Image src="/IMG_9925.JPG.jpeg" alt="Shift4 card terminal" width={600} height={500} className="rounded-3xl object-cover w-full" />
               </div>
               <div className="relative">
                 <Image src="/shift4.2.jpeg" alt="Shift4 POS system" width={600} height={500} className="rounded-3xl object-cover w-full" />
