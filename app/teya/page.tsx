@@ -70,7 +70,7 @@ export default function Teya() {
           </div>
         </section>
 
-        <section className="px-5 py-12 bg-slate-100 text-center">
+        <section className="px-5 py-12 bg-white text-center">
           <div className="flex flex-col items-center gap-3">
             <Image src="/teya_logo.png" alt="Teya" width={80} height={30} className="h-8 w-auto object-contain" />
             <p className="text-xl font-bold text-slate-800">OFFICIAL PARTNER</p>
