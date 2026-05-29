@@ -33,15 +33,6 @@ const businessCategoryCards = [
   { name: 'GROCERY STORES', image: '/ym.jpg', alt: 'Supermarket checkout', slogan: 'Fresh payment solutions' },
   { name: 'GYMS', image: '/gym.jpg', alt: 'Fitness center', slogan: 'Power up your payments' },
 ];
-const whyChooseItems = [
-  { icon: Zap, title: 'Easy to Setup', text: 'Fast setup and simple onboarding for small business needs.' },
-  { icon: TrendingDown, title: 'Lowest transaction rates', text: 'Competitive payment processing rates for your customers.' },
-  { icon: LockKeyhole, title: 'Secure Transactions', text: 'Fast, secure and reliable payment solutions for every business.' },
-  { icon: PhoneCall, title: '24/7 Support', text: 'Our team is available to support merchants when they need help.' },
-];
-const trustedCategories = ['Lodging & Hospitality', 'Food & Beverage', 'Retail', 'Sports & Entertainment', 'Casinos & Online Gaming', 'eCommerce', 'Airlines & Travel'];
-const trustedLogos = ['aka.', 'Great Wolf Resorts', 'WYNDHAM', 'NOBLE HOUSE', 'ALTERA', 'Montage'];
-
 export default function Home() {
   return (
     <PageShell>
@@ -104,48 +95,6 @@ export default function Home() {
           </div>
         </section>
 
-        <section id="why-choose-us" className="py-16">
-          <div className="mx-auto grid max-w-7xl overflow-hidden rounded-[2.5rem] bg-white shadow-premium lg:grid-cols-2">
-            <div className="px-6 py-12 md:px-14 lg:py-20">
-              <p className="mb-5 text-sm font-black uppercase tracking-[0.25em] text-orange-600">Why choose us</p>
-              <h2 className="max-w-xl text-4xl font-black leading-tight tracking-tight text-navy md:text-5xl">Various acquirers and selection of terminals</h2>
-              <p className="mt-5 max-w-xl text-slate-600">Eposify helps UK businesses compare payment options, terminals and merchant services with clear guidance tailored to every business size.</p>
-              <div className="mt-8 space-y-5">
-                {whyChooseItems.map((item) => (
-                  <div key={item.title} className="flex gap-4">
-                    <div className="flex h-12 w-12 flex-none items-center justify-center rounded-full bg-ink text-orange-500"><item.icon size={22} /></div>
-                    <div>
-                      <h3 className="text-lg font-black text-ink">{item.title}</h3>
-                      <p className="mt-1 text-sm leading-6 text-slate-600">{item.text}</p>
-                    </div>
-                  </div>
-                ))}
-              </div>
-              <div className="mt-10 grid gap-4 sm:grid-cols-2">
-                <MiniStat value="500+" label="Businesses Supported" />
-                <MiniStat value="99.9%" label="Uptime" />
-              </div>
-            </div>
-            <div className="relative min-h-[420px] lg:min-h-full">
-              <Image src="/PD07204_-_USEN_-_customer_facing_register.avif" alt="Business owner processing payment with a tablet" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
-            </div>
-          </div>
-        </section>
-
-        <section className="px-5 py-16">
-          <div className="mx-auto grid max-w-7xl items-center gap-10 rounded-[2.5rem] bg-[#f7efdf] p-6 shadow-premium md:p-12 lg:grid-cols-2">
-            <div>
-              <p className="mb-5 text-xs font-black uppercase tracking-[0.28em] text-lime-600">Made for the floor</p>
-              <h2 className="max-w-xl text-4xl font-black leading-tight tracking-tight text-ink md:text-5xl">Built by people who&apos;ve <span className="underline decoration-lime-500 decoration-4 underline-offset-4">run shifts.</span></h2>
-              <p className="mt-6 max-w-xl text-lg leading-8 text-stone-700">We&apos;re the team behind Seamless POS — used by independent pubs, restaurants and cafés across the UK. We know how badly the wrong card provider hurts on a Friday night: bad tipping flows, surprise statements, terminals that can&apos;t talk to your kitchen. CardRate is the comparison we wished existed.</p>
-              <Link href="/contact" className="mt-8 inline-flex items-center gap-2 font-black text-ink transition hover:text-electric">Read our methodology <ArrowRight size={18} /></Link>
-            </div>
-            <div className="relative min-h-[360px] overflow-hidden rounded-[2rem] md:min-h-[440px]">
-              <Image src="/139.avif" alt="Restaurant team serving a fresh meal" fill sizes="(min-width: 1024px) 50vw, 100vw" className="object-cover" />
-            </div>
-          </div>
-        </section>
-
         <section id="funding" className="px-5 py-16">
           <div className="mx-auto grid max-w-7xl items-center gap-10 rounded-[2.5rem] bg-navy p-8 md:p-12 lg:grid-cols-2">
             <div><p className="mb-3 text-sm font-black uppercase tracking-[0.25em] text-emerald">Business funding UK</p><h2 className="text-4xl font-black tracking-tight text-white md:text-6xl">Flexible Business Funding for Growing Companies</h2><p className="mt-6 text-lg leading-8 text-slate-300">Access fast and flexible business funding solutions designed around your card sales performance. Whether you need stock, renovations, marketing, or expansion capital, we help businesses unlock growth opportunities.</p><div className="mt-7 flex flex-wrap gap-3"><span className="rounded-full bg-white/10 px-4 py-2 font-bold text-white">Fast approval</span><span className="rounded-full bg-white/10 px-4 py-2 font-bold text-white">£5K–£500K</span><span className="rounded-full bg-white/10 px-4 py-2 font-bold text-white">Growth chart review</span></div><Link href="/contact" className="mt-8 inline-flex items-center gap-2 rounded-full bg-emerald px-7 py-4 font-black text-emerald-950">Apply for Funding <ArrowRight size={18} /></Link></div>
@@ -153,41 +102,7 @@ export default function Home() {
           </div>
         </section>
 
-        <section className="px-5 py-16">
-          <div className="relative mx-auto max-w-7xl overflow-hidden rounded-[2.5rem] bg-[#05040a] px-6 py-16 text-center shadow-premium md:px-12">
-            <div className="absolute left-1/2 h-72 w-72 -translate-x-1/2 rounded-full bg-electric/20 blur-3xl" />
-            <div className="relative">
-              <h2 className="text-4xl font-black tracking-tight text-electric md:text-5xl">Trusted by the Top Brands Across Industries</h2>
-              <div className="mt-10 grid gap-5 text-sm font-bold text-slate-400 md:grid-cols-7">
-                {trustedCategories.map((category, index) => (
-                  <div key={category} className={index === 0 ? 'text-electric' : ''}>{category}</div>
-                ))}
-              </div>
-              <div className="mt-12 grid items-center gap-8 md:grid-cols-6">
-                {trustedLogos.map((logo) => (
-                  <div key={logo} className="font-serif text-2xl font-black tracking-wide text-white/80 opacity-70 transition hover:opacity-100 md:text-3xl">{logo}</div>
-                ))}
-              </div>
-              <p className="mt-14 text-lg font-black text-white">+ Hundreds of Thousands More</p>
-            </div>
-          </div>
-        </section>
-
         <section className="px-5 py-16"><SectionHeader eyebrow="Testimonials" title="Trusted by merchants and sales partners" /><div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-3">{['The onboarding was quick and our new terminal improved table service immediately.', 'Eposify helped us compare card machines UK options and secure better rates.', 'The funding conversation was clear, fast and based around real card sales.'].map((text, i) => <div key={text} className="rounded-4xl bg-white p-7 shadow-premium"><Quote className="text-electric" /><p className="mt-5 text-slate-600">{text}</p><p className="mt-6 font-black text-navy">{['Restaurant Owner', 'Salon Director', 'Retail Merchant'][i]}</p></div>)}</div></section>
-
-        <section className="px-5 py-16">
-          <div className="mx-auto grid max-w-7xl items-center overflow-hidden rounded-[2.5rem] bg-[#dff8ff] shadow-premium lg:grid-cols-[0.85fr_1.15fr]">
-            <div className="px-6 py-12 md:px-14 lg:py-20">
-              <p className="mb-4 text-sm font-black uppercase tracking-[0.22em] text-electric">Support for queries</p>
-              <h2 className="text-5xl font-black tracking-tight text-navy md:text-7xl">Need help?</h2>
-              <p className="mt-6 max-w-md text-lg font-medium text-ink">Contact one of our representatives today for card machines, EPOS systems, merchant services or funding support.</p>
-              <Link href="/contact" className="mt-8 inline-flex items-center gap-2 rounded-xl bg-rose-600 px-6 py-4 font-black text-white shadow-glow transition hover:-translate-y-1 hover:bg-rose-700">Get support <ArrowRight size={18} /></Link>
-            </div>
-            <div className="relative min-h-[320px] lg:min-h-[440px]">
-              <Image src="/Helpline.png" alt="Red landline support phone" fill sizes="(min-width: 1024px) 58vw, 100vw" className="object-contain object-right-bottom" />
-            </div>
-          </div>
-        </section>
 
         <section className="px-5 py-16"><div className="mx-auto grid max-w-7xl gap-6 md:grid-cols-3"><div className="rounded-4xl bg-white p-7 shadow-premium"><Store className="text-electric" /><h3 className="mt-4 text-xl font-black text-navy">Merchant guide</h3><p className="mt-3 text-slate-600">How to choose the right POS systems for your sector.</p></div><div className="rounded-4xl bg-white p-7 shadow-premium"><BadgePoundSterling className="text-emerald" /><h3 className="mt-4 text-xl font-black text-navy">Funding insights</h3><p className="mt-3 text-slate-600">Using payment performance to support growth plans.</p></div><div className="rounded-4xl bg-white p-7 shadow-premium"><BarChart3 className="text-electric" /><h3 className="mt-4 text-xl font-black text-navy">ROI calculator</h3><p className="mt-3 text-slate-600">Estimate time saved from integrated payment solutions.</p></div></div></section>
       </main>
